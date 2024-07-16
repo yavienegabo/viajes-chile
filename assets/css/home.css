@@ -16,35 +16,73 @@ header {
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
-    color: #333;
+    color: #ffffff;
     font-weight: bold;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 80px;
+    margin-bottom: 60px;
 }
 
 /* -------Estilo para las tarjetas------- */
 #cards-recetas-relacionadas {
     margin-top: 40px;
     margin-bottom: 80px;
+    text-align: left;
     }
+
+.card {
+    background-color: #0DCAF0;
+}
     
  .card .card-title {
         font-family: 'Montserrat', sans-serif;
         font-size: 24px;
-        color: #333;
+        color: #ffffff;
         margin-bottom: 10px;
-        font-weight: bold;
+        font-weight: thin;
     }
  .card .card-text {
         font-family: 'montserrat', sans-serif;
         font-size: 16px;
-        color: #666;
+        color: #ffffff;
         line-height: 1.5;
     }
     .card-image {
         height: 180px;
         object-fit: cover;
     }
+form {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    font-family: 'montserrat', sans-serif;
+        font-size: 16px;
+        color: #ffffff;
+}
+.btn-custom-color {
+    background-color: #0DCAF0;
+    color: #ffffff;
+}
 
+p  {
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+    text-align: left;
+    
+}
 
+/*-------Estilo para el footer-------*/
+footer {
+    background-color: #0DCAF0;
+    padding: 20px 0;
+    text-align: center;
+}
+.icon-white {
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.footer-social-icons a {
+    text-decoration: none;
+}
