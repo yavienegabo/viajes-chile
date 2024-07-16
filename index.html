@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajes Chile</title>
 
-    <!-- Preconexiones necesarias una sola vez -->
+    <!-- Fuente de Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <!-- Fuentes de Google -->
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/b66d5247cf.js" crossorigin="anonymous"></script>
@@ -22,3 +20,167 @@
     <link href="./assets/css/home.css" rel="stylesheet"/>
 </head>
 <body>
+
+   
+
+    <!-- Encabezado -->
+    <header>
+         <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <span class="logo-text">Viajes Chile</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Destacados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- carrusel -->
+    <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+    </header>
+
+    <!-- Columnas con texto -->
+     <section>
+    <div class="container">
+        <h2>¿QUIENES SOMOS?</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <i class="fa-solid fa-mountain fa-3x mb-3"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-bolt fa-3x mb-3"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-leaf fa-3x mb-3"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Cards Recetas relacionadas -->
+<section>
+    <div id="cards-recetas-relacionadas" class="container">
+        <h2>DESTACADOS</h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="assets/img/card1.jpg" class="card-img-top img-fluid card-image" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="assets/img/card2.jpg" class="card-img-top img-fluid card-image" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Excepteur sint occaecat cupidatat non proident</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="assets/img/card3.jpg" class="card-img-top img-fluid card-image" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="assets/img/card4.jpg" class="card-img-top img-fluid card-image" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Duis aute irure dolor in reprehenderit in voluptate</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Formulario de contacto -->
+
+<!-- Footer  -->
+<footer id="footer-section" style="background-color: #f8f9fa; padding: 20px 0;">
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="footer-text">
+            <p style="margin: 0;">Viajes Chile</p>
+        </div>
+        <div class="footer-social-icons">
+            <a href="https://github.com" target="_blank" style="margin-left: 15px;">
+                <i class="fab fa-github" style="font-size: 24px;"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" style="margin-left: 15px;">
+                <i class="fab fa-linkedin" style="font-size: 24px;"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" style="margin-left: 15px;">
+                <i class="fab fa-twitter" style="font-size: 24px;"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" style="margin-left: 15px;">
+                <i class="fab fa-facebook" style="font-size: 24px;"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- Script JQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+<!-- archivo main.js -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
+    

@@ -1,0 +1,50 @@
+
+/* Resetear márgenes y padding del body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Fondo negro para toda la página */
+    color: white; /* Color de texto blanco para contrastar */
+}
+
+/* Estilos específicos para el header */
+header {
+    background-color: transparent; /* Fondo transparente para el header */
+}
+
+/* Estilos para los h2 */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* -------Estilo para las tarjetas------- */
+#cards-recetas-relacionadas {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    }
+    
+ .card .card-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+ .card .card-text {
+        font-family: 'montserrat', sans-serif;
+        font-size: 16px;
+        color: #666;
+        line-height: 1.5;
+    }
+    .card-image {
+        height: 180px;
+        object-fit: cover;
+    }
+
+
