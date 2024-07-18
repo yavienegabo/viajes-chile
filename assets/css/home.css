@@ -1,20 +1,23 @@
 
-/* Resetear márgenes y padding del body */
 body {
     margin: 0;
     padding: 0;
-    background-color: black; /* Fondo negro para toda la página */
-    color: white; /* Color de texto blanco para contrastar */
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat';
 }
 
-/* Estilos específicos para el header */
-header {
-    background-color: transparent; /* Fondo transparente para el header */
+/* Estilo del navbar */
+.navbar-logo {
+    height: 40px;
+    margin-right: 10px;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Estilos para los h2 */
 h2 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     color: #ffffff;
     font-weight: bold;
@@ -23,10 +26,27 @@ h2 {
     margin-bottom: 60px;
 }
 
+/* Estilos para los iconos contenidos */
+.icon-container {
+    background-color: #0DCAF0;
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+
 /* -------Estilo para las tarjetas------- */
-#cards-recetas-relacionadas {
+#cards-lugares-destacados {
     margin-top: 40px;
-    margin-bottom: 80px;
     text-align: left;
     }
 
@@ -35,22 +55,18 @@ h2 {
 }
     
  .card .card-title {
-        font-family: 'Montserrat', sans-serif;
         font-size: 24px;
         color: #ffffff;
         margin-bottom: 10px;
-        font-weight: thin;
     }
  .card .card-text {
-        font-family: 'montserrat', sans-serif;
-        font-size: 16px;
         color: #ffffff;
-        line-height: 1.5;
     }
     .card-image {
         height: 180px;
         object-fit: cover;
     }
+/* -------Estilo para formualrio------- */
 form {
     padding-top: 20px;
     padding-bottom: 80px;
@@ -62,14 +78,8 @@ form {
     background-color: #0DCAF0;
     color: #ffffff;
 }
-
-p  {
-    font-family: 'montserrat', sans-serif;
-    font-size: 16px;
-    color: #ffffff;
-    line-height: 1.5;
-    text-align: left;
-    
+.btn-custom-color:hover {
+    background-color: #0099cc;
 }
 
 /*-------Estilo para el footer-------*/
