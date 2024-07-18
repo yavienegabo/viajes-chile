@@ -1,4 +1,5 @@
 
+/* Estilo del body */
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +7,6 @@ body {
     color: white;
     font-family: 'Montserrat';
 }
-
 /* Estilo del navbar */
 .navbar-logo {
     height: 40px;
@@ -15,7 +15,6 @@ body {
 .navbar {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Estilos para los h2 */
 h2 {
     font-size: 28px;
@@ -25,7 +24,6 @@ h2 {
     margin-top: 80px;
     margin-bottom: 60px;
 }
-
 /* Estilos para los iconos contenidos */
 .icon-container {
     background-color: #0DCAF0;
@@ -38,22 +36,17 @@ h2 {
     margin-top: 16px;
     margin-bottom: 16px;
 }
-
 .text-left {
     text-align: left;
 }
-
-
 /* -------Estilo para las tarjetas------- */
 #lugares-destacados {
     margin-top: 40px;
     text-align: left;
     }
-
 .card {
     background-color: #0DCAF0;
-}
-    
+}  
  .card .card-title {
         font-size: 24px;
         color: #ffffff;
@@ -81,7 +74,6 @@ form {
 .btn-custom-color:hover {
     background-color: #0099cc;
 }
-
 /*-------Estilo para el footer-------*/
 footer {
     background-color: #0DCAF0;
@@ -92,7 +84,6 @@ footer {
     color: #ffffff;
     margin-left: 20px;
 }
-
 .footer-social-icons a {
     text-decoration: none;
 }
