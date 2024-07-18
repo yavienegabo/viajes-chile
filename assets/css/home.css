@@ -74,6 +74,14 @@ form {
 .btn-custom-color:hover {
     background-color: #0099cc;
 }
+/* Estilo para el tooltip */
+.tooltip-inner {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 14px;
+}
+
+
 /*-------Estilo para el footer-------*/
 footer {
     background-color: #0DCAF0;

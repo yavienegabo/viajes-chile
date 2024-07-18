@@ -1,14 +1,17 @@
 $(document).ready(function(){
-    $("a").on('click', function(event) {
-    if (this.hash !== "") {
-    event.preventDefault();
-    var hash = this.hash;
-    $('html, body').animate({
-    scrollTop: $(hash).offset().top
-    }, 400, function(){
-   
-    window.location.hash = hash;
+    // Smoth scroll
+    $("a[href^='#']").on('click', function(event) {
+        var target = $(this.hash);
+        if (target.length) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 400);
+        }
     });
-    }
+
+        // Tooltip
+   $('[data-toggle="tooltip"]').tooltip({
+    trigger: 'hover'
     });
-   });
+});
