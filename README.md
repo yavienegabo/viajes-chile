@@ -30,3 +30,12 @@
 - **Bootstrap Bundle**: Incluye Popper.js y Bootstrap para interactividad.
 - **jQuery**: Biblioteca para manipulación del DOM.
 - **Main.js (`./assets/js/main.js`)**: Archivo JavaScript personalizado para funcionalidades específicas.
+
+### 5. Enlace a Github Page
+
+https://yavienegabo.github.io/viajes-chile/
+
+### 6. Clonar repositorio
+
+https://github.com/yavienegabo/viajes-chile.git
+
