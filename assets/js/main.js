@@ -9,7 +9,6 @@ $(document).ready(function(){
             }, 400);
         }
     });
-
         // Tooltip
    $('[data-toggle="tooltip"]').tooltip({
     trigger: 'hover'
